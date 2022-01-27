@@ -6,13 +6,13 @@
 #    By: tkirihar <tkirihar@student.42tokyo.jp>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/27 15:22:22 by tkirihar          #+#    #+#              #
-#    Updated: 2022/01/27 15:24:25 by tkirihar         ###   ########.fr        #
+#    Updated: 2022/01/27 15:25:33 by tkirihar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= a.out
 
-SRCS		= 	main.cpp \
+SRCS		=	main.cpp \
 				Zombie.cpp \
 				newZombie.cpp \
 				randomChump.cpp
