@@ -6,7 +6,7 @@
 /*   By: tkirihar <tkirihar@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/27 17:24:59 by tkirihar          #+#    #+#             */
-/*   Updated: 2022/01/28 00:54:49 by tkirihar         ###   ########.fr       */
+/*   Updated: 2022/01/28 01:21:54 by tkirihar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	HumanB::attack()
 		std::cout << name << " attacks with his " << club->getType() << std::endl;
 }
 
-void	HumanB::setWeapon(Weapon & club)
+void	HumanB::setWeapon(Weapon &club)
 {
 	this->club = &club;
 }

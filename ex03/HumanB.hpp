@@ -6,7 +6,7 @@
 /*   By: tkirihar <tkirihar@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/27 17:24:57 by tkirihar          #+#    #+#             */
-/*   Updated: 2022/01/28 00:54:02 by tkirihar         ###   ########.fr       */
+/*   Updated: 2022/01/28 01:24:48 by tkirihar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,14 @@
 
 class HumanB
 {
-private:
-	Weapon *club;
-	std::string name;
+	private:
+		Weapon *club;
+		std::string name;
 
-public:
-	HumanB(std::string human_name);
-	void	attack();
-	void	setWeapon(Weapon & club);
+	public:
+		HumanB(std::string human_name);
+		void	attack();
+		void	setWeapon(Weapon & club);
 };
 
 #endif
